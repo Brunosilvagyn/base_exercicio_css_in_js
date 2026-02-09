@@ -1,21 +1,36 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Form = styled.form`
-  padding: 24px;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-`;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: var(--cor-secundaria);
+  padding: 32px;
+  border-radius: 12px;
+  margin-top: 40px;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`
 
 export const Input = styled.input`
-  padding: 8px;
-  border: 1px solid #ccc;
-`;
+  padding: 0 16px;
+  outline-color: var(--cor-principal);
+`
 
 export const Button = styled.button`
-  padding: 8px 16px;
-  background-color: var(--cor-secundaria);
-  color: var(--cor-principal);
-  border: none;
+  background-color: var(--cor-principal);
+  border: 1px solid var(--cor-principal);
+  height: 40px;
+  padding: 0 16px;
+  font-size: 18px;
+  color: var(--cor-secundaria);
+  margin-left: 8px;
   cursor: pointer;
-`;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    margin-top: 16px;
+    width: 100%;
+  }
+`
