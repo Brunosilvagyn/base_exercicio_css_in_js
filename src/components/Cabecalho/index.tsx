@@ -1,9 +1,11 @@
-import styles from './Cabecalho.module.css'
+import { Container } from "./styles";
 
-const Cabecalho = () => (
-  <header className={styles.cabecalho}>
-    <h1>EBAC Jobs</h1>
-  </header>
-)
+const Hero = () => {
+  return (
+    <Container>
+      <h2>Encontre a vaga ideal para você</h2>
+    </Container>
+  );
+};
 
-export default Cabecalho
+export default Hero;
