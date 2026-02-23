@@ -1,11 +1,11 @@
-import { Container } from "./styles";
+import { Container } from './styles'
 
-const Hero = () => {
+const Cabecalho = () => {
   return (
     <Container>
       <h2>Encontre a vaga ideal para você</h2>
     </Container>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Cabecalho

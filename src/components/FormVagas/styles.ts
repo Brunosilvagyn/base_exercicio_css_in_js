@@ -13,12 +13,12 @@ export const Form = styled.form`
   }
 `
 
-export const Input = styled.input`
+export const Input = styled('input')`
   padding: 0 16px;
   outline-color: var(--cor-principal);
 `
 
-export const Button = styled.button`
+export const Button = styled('button')`
   background-color: var(--cor-principal);
   border: 1px solid var(--cor-principal);
   height: 40px;

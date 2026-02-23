@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const Container = styled.section`
-  padding: 40px 0;
+export const Container = styled.header`
+  background-color: var(--cor-secundaria);
+  color: var(--cor-principal);
   text-align: center;
-  background-color: var(--cor-principal);
-  color: var(--cor-secundaria);
-`;
+  padding: 24px 0;
+`

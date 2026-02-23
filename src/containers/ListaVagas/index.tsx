@@ -1,5 +1,5 @@
-import { Container } from "./styles";
-import Vaga from "../../components/Vaga";
+import { Container } from './styles'
+import Vaga from '../../components/Vaga'
 
 const ListaVagas = () => {
   return (
@@ -8,7 +8,7 @@ const ListaVagas = () => {
       <Vaga />
       <Vaga />
     </Container>
-  );
-};
+  )
+}
 
-export default ListaVagas;
+export default ListaVagas
